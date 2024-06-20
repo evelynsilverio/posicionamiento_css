@@ -5,25 +5,28 @@
     border: 1px solid black;
     padding: 20px;
     width: 400px;
+    position: relative;
 }
 
 .red-box{
-    background-color: rgb(102, 21, 112);
+    background-color: red;
     /* bottom: 200px; No funciona por la posición estática */
 }
 
 .blue-box{
-    background-color: rgb(170, 38, 141);
+    background-color: blue;
     position: absolute;
-    top: 20%;
-    left:50px;
+    bottom: 0;
+    right: 20px;
 }
 
-.green-b
-    background-color: rgb(77, 187, 199);
+.green-box{
+    background-color: green;
 }
 
 .red-box, .blue-box, .green-box {
+    width: 100px;
+    height: 100px;
     margin-right: 20px;
 }
 
